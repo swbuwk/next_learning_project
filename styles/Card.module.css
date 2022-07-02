@@ -1,0 +1,97 @@
+.card_form_component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background: linear-gradient(248deg, rgba(193,193,193,1) 6%, rgba(238,238,238,1) 26%, rgba(223,223,223,1) 41%);
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card_input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.card_bottom {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_number {
+    width: 400px;
+}
+
+.exp_date {
+    width: 200px;
+    font-size: 32px;
+}
+
+.cvv {
+    width: 100px;
+    font-size: 32px;
+}
+
+.card_label {
+    font-size: 20px;
+}
+
+.form_label {
+    margin-top: 30px;
+}
+
+.form_input {
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.raw_info {
+    margin-top: 50px;
+    display: flex;
+}
+
+.raw_info div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.pay_button, .pay_button_enabled {
+    position: relative;
+    background-color: white;
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(201, 201, 255);
+    font-size: 22px;
+    overflow: hidden;
+    transition: 0.25s;
+    box-shadow: inset 0 0 0 0 rgb(201, 201, 255);
+}
+
+.pay_button_enabled:hover {
+    box-shadow: inset 0 6em 0 0 rgb(201, 201, 255);
+    color: white;
+}
